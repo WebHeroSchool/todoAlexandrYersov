@@ -1,6 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
 
+const name = 'Alexandr';
+const age = 34;
+const human = true;
+const flag = false;
+
 function App() {
   return (
     <div className="App">
@@ -9,8 +14,23 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <p style={{
+          color: 'red'
+        }}>
+          Имя {name}, возраст {age}, {human && 'человек'}
+        </p>
+        <p style={{
+          fontSize: 16+2,
+          color: 'green'
+        }}>
+          2 + 2 = {2 + 2}
+        </p>
         <p>
-          Hello world!
+          {flag ? 'Flag is true' : 'Flag is false'}
+          {undefined}
+          {null}
+          {true}
+          {false}
         </p>
         <a
           className="App-link"
