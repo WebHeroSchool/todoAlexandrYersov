@@ -1,10 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import { count, length } from './numbers.js';
 
 const name = 'Alexandr';
 const age = 34;
 const human = true;
 const flag = false;
+
 
 function App() {
   return (
@@ -31,6 +33,12 @@ function App() {
           {null}
           {true}
           {false}
+        </p>
+        <p style={{
+          border: '3px solid red',
+          padding: '0 10px',
+        }}>
+          count * length = { count * length }
         </p>
         <a
           className="App-link"
