@@ -36,7 +36,7 @@ function App() {
         </p>
         <p style={{
           border: '3px solid red',
-          padding: '0 10px',
+          padding: '0 15px',
         }}>
           count * length = { count * length }
         </p>
