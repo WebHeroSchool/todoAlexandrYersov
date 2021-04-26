@@ -2,6 +2,7 @@ import React from 'react';
 import InputItem from '../InputItem/InputItem.js'
 import ItemList from '../ItemList/ItemList.js';
 import Footer from '../Footer/Footer.js';
+import './App.css';
 
 const App = () => {
     const items = [
@@ -16,7 +17,7 @@ const App = () => {
         },
     ];
     return (
-    <div>
+    <div className='wrap'>
         <h1> Важные дела </h1>
         <InputItem />
         <ItemList items={items} />
@@ -24,4 +25,4 @@ const App = () => {
     </div>);
 }
 
-export default App; 
+export default App;
