@@ -3,3 +3,8 @@
     max-width: 400px;
     font-family: georgia;
 }
+
+.footer {
+    font-weight: bold;
+    color: red;
+}
