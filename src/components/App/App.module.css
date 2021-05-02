@@ -8,3 +8,7 @@
     font-weight: bold;
     color: red;
 }
+
+.done {
+    text-decoration: line-through;
+}
