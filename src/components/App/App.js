@@ -2,7 +2,7 @@ import React from 'react';
 import InputItem from '../InputItem/InputItem.js'
 import ItemList from '../ItemList/ItemList.js';
 import Footer from '../Footer/Footer.js';
-import './App.css';
+import styles from './App.module.css';
 
 const App = () => {
     const items = [
@@ -17,7 +17,7 @@ const App = () => {
         },
     ];
     return (
-    <div className='wrap'>
+    <div className={styles.wrap}>
         <h1> Важные дела </h1>
         <InputItem />
         <ItemList items={items} />
